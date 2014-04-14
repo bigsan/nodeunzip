@@ -2,7 +2,7 @@
 
 var fs = require('fs');
 var unzip = require('unzip');
-require('../id3tool/extend-buffer-tostring-encodings')(require('iconv-lite'));
+require('./extend-buffer-tostring-encodings')(require('iconv-lite'));
 
 var argv = require('optimist')
     .usage('Unzip: Non-ascii filenames will be decoded by given encoding.\nUsage: $0 [--list] [--enc <encoding>] <zipFileName>')
