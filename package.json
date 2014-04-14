@@ -1,0 +1,21 @@
+{
+  "name": "nodeunzip",
+  "version": "0.1.0",
+  "description": "Unzip which supports non-ASCII filenames.",
+  "main": "main.js",
+  "dependencies": {
+    "optimist": "~0.6.0",
+    "unzip": "~0.1.9",
+    "iconv-lite": "~0.2.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "unzip",
+    "encoding"
+  ],
+  "author": "San Chen <bigsan.chen@gmail.com>",
+  "license": "MIT"
+}
